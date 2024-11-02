@@ -2,7 +2,7 @@ arr=[3,1,2]
 # arr.sort()
 # take not take approach on indices
 
-def f(ind,sub,arr):
+def f(ind,sub,arr): # TC(O(2^n)*n), SC:O(n)
     if ind>=len(arr):
         if len(sub)==0:
             print('Empty')
