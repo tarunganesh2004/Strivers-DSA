@@ -1,6 +1,3 @@
-from re import L
-
-
 arr=[2,4,6,8,8,8,11,13]
 x=8
 
