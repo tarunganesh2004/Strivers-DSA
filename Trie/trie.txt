@@ -1,0 +1,3 @@
+trie datastructure is used to store the words in the dictionary. It is a tree data structure that is used to store a dynamic set where the keys are usually strings. The trie is a tree where each node contains the characters of the string
+for problems with prefix, startswith, suffix, endswith, etc. trie is the best data structure to use.
+'''
