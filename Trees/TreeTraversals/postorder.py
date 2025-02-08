@@ -30,13 +30,13 @@ class TreeNode:
 
         return root
 
-    def preorder(self,root):
+    def postorder(self, root):
         if not root:
             return []
-        return [root.data]+self.preorder(root.left)+self.preorder(root.right)
+        return self.postorder
 
 
 arr = [1, 2, 3, 4, 5]
 root = TreeNode(arr[0])
 root = root.build_tree(arr)
-print(root.preorder(root))  # type: ignore # [4, 2, 5, 1, 3]
+print(root.inorder(root))  # type: ignore # [4, 2, 5, 1, 3]
