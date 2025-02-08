@@ -33,7 +33,7 @@ class TreeNode:
     def postorder(self, root):
         if not root:
             return []
-        return self.postorder
+        return self.postorder(root.left) + self.postorder(root.right) + [root.data]
 
 
 arr = [1, 2, 3, 4, 5]
