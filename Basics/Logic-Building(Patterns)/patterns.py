@@ -57,3 +57,4 @@ def reverse_right_triangle(n):
             print(j+1,end=" ")
         print()
 reverse_right_triangle(n)
+
